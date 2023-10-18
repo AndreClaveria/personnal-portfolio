@@ -1,0 +1,12 @@
+@import "../styles/variables.scss";
+
+* {
+  box-sizing: unset;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2px;
+}
