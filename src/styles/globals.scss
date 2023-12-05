@@ -1,11 +1,35 @@
 @import "../styles/variables.scss";
 
-* {
-  box-sizing: unset;
+@font-face {
+  font-family: "Latunner";
+  src: url("../../public/fonts/Latunner.ttf");
 }
 
+@font-face {
+  font-family: "ModerDos";
+  src: url("../../public/fonts/ModerDos.ttf");
+}
+
+@font-face {
+  font-family: "Titillium";
+  src: url("../../public/fonts/TitilliumWeb-Regular.ttf");
+}
+
+@font-face {
+  font-family: "EightBit";
+  src: url("../../public/fonts/eight-bit-dragon.otf");
+}
+
+@font-face {
+  font-family: "Upheaval";
+  src: url("../../public/fonts/upheavtt.ttf");
+}
+
+
+
 body {
-  overflow-x: hidden;
+  background-color: rgb(161, 161, 161);
+ 
   margin: 0;
   padding: 0;
   letter-spacing: 2px;
