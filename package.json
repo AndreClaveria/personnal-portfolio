@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/fiber": "^8.15.9",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.67.0",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "three": "^0.158.0"
+  },
+  "devDependencies": {
+    "next-transpile-modules": "^10.0.1"
   }
 }

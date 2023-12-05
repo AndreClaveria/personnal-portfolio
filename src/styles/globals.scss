@@ -25,13 +25,11 @@
   src: url("../../public/fonts/upheavtt.ttf");
 }
 
-* {
-  box-sizing: unset;
-}
+
 
 body {
   background-color: rgb(161, 161, 161);
-  overflow-x: hidden;
+ 
   margin: 0;
   padding: 0;
   letter-spacing: 2px;
