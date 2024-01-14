@@ -1,8 +1,16 @@
 import React from 'react';
-import style from './index.module.scss';
+import styles from "@/styles/index/index.module.scss";
+import Header from '@/components/partials/Header';
+import Footer from '@/components/partials/Footer';
 
-const Index = () => {
-    
-};
-
-export default Index;
+export default function Home() {
+  return (
+    <>
+      <Header/>
+        <div className={styles.section}>
+          <div className={styles.middle}>projets</div>
+        </div>
+      {/* <Footer/> */}
+    </>
+  );
+}

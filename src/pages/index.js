@@ -1,13 +1,18 @@
 import React from 'react';
 import styles from "@/styles/index/index.module.scss";
+import Header from '@/components/partials/Header';
+import Footer from '@/components/partials/Footer';
 
 export default function Home() {
   return (
     <>
-   
-    <div className={styles.section}>
-      <div className={styles.middle}>appuyer sur entrer pour commencer</div>
-    </div>
+      <Header/>
+        <div className={styles.section}>
+          <div className={styles.middle}>appuyer sur entrer pour commencer</div>
+
+        </div>
+     
+      {/* <Footer/> */}
     </>
   );
 }
